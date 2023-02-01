@@ -35,6 +35,7 @@ for item in vals:
 
 # ex5. for문의 break문
 num = 0
+
 for item in vals:
     num += 1
     if num % 2 == 0:
