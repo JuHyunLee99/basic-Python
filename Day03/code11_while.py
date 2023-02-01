@@ -1,7 +1,7 @@
 #while 문
 hit = 0 # 변수 초기화
 
-while hit < 11:
+while hit < 10001:  # while true 조심해서 쓸 것
     hit += 1    # hit를 1씩 증가
 
     print(f'나무를 {hit}번 찍었습니다')
