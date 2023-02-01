@@ -6,4 +6,4 @@ import math
 
 print(f'현재 경로 : {os.getcwd()}')
 
-print(math.pi * 10 * 10)
+print(math.pi)
