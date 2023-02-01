@@ -11,4 +11,4 @@ while hit < 11:
     else:
         print('나무가 아직 넘어가지 않았습니다. 끈질긴 놈')
 
-print(' ')
+print('나무찍기 완료')
