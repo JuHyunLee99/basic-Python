@@ -113,7 +113,7 @@ def load_contacts(list):
 
 # 6. 메뉴표시
 def get_menu():     
-##     str_menu = '''주소록앱 v0.5             
+##     str_menu = '''주소록앱 v1.0            
 ## 1. 연락처 추가
 ## 2. 연락처 출력
 ## 3. 연락처 삭제
