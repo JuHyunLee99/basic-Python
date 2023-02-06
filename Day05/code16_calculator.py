@@ -31,7 +31,7 @@ def calc(option, *args):
 # 함수 결과가 하나이상인 경우
 # 여러값을 리턴할때는 튜플을 사용
 def new_calc(x, y):
-    return (x*y, x/y, x+y, x-y)   # 튜플 형태
+    return (x*y, x/y, x+y, x-y)   # 튜플 형태로 반환
 
 res1, res2, res3, res4 = new_calc(5, 7)
 # print(res1, res2, res3, res4)

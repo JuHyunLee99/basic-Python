@@ -9,7 +9,7 @@ def div(a, b):
     return a / b
 
 try:
-    x,y = int, input('두 수를 입력하세요 > ').split()
+    x,y = input('두 수를 입력하세요 > ').split()
     x = int(x)
     y = int(y)
 
@@ -28,7 +28,7 @@ print('계산 테스트')
 
 try:
     print(div(x, y))    # y = 0일 때 예외 발생
-except ZeroDivisionError as e:      # 개발할 때는 별로 사용할 일 없음.
+except ZeroDivisionError as e:      # 개발할 때는 별로 사용할 일 없음. 사용자가 원할때 사용
     print('0으로 나누면 안되요!')
 except Exception as e:              # Exception은 except 중 젤 마지막에 있어야함.
     print(e)

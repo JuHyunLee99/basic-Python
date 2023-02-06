@@ -1,4 +1,4 @@
-# 외부 패키지를 사용
+# 외부 패키지 requests를 사용
 import requests 
 
 res = requests.get('https://naver.com')

@@ -8,4 +8,4 @@ lottery = []
 for i in range(6):
     lottery.append(random.choice(numbers))
 
-print(lottery)
+print(lottery)  # 숫자 6개 램덤으로

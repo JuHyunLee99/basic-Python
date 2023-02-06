@@ -7,11 +7,12 @@ class Car:
         self.__number = number
         print('__init__') 
 
-    # def __new__(cls):       # 클래스 자체를 받으며 할당. 쉽게 말하면 Car 클래스를 만드는 것. 안씀.
+    ## __new__ : 클래스 자체를 받으며 할당. 쉽게 말하면 Car 클래스를 만드는 것. 안씀.
+    # def __new__(cls):       #  버전 3.1에서 쓰면 오류
     #     print('__new__')
     #     return super().__new__(cls)   # 부모클래스(상속)
     
-    def __str__(self) -> str:
+    def __str__(self) -> str:   # instance 객체 출력(print) 시 자동으로 실행되는 특수 method이다.
         return f'내 차 번호는 {self.__number} 입니다.'
 
     def get_number(self):
