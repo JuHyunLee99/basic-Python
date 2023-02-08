@@ -1,7 +1,9 @@
 # 외부 패키지 requests를 사용
-import requests 
+import requests
 
 res = requests.get('https://naver.com')
 print(res.status_code)
 print('================')
 print(res.content)
+
+

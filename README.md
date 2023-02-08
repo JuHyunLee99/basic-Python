@@ -59,6 +59,11 @@ print(f'파이는 {pi:10.3f}입니다.')  # 파이는          3.142입니다.
     - 객체지향 OOP(클래스)
     - 패키지, 모듈
 
+```cmd
+PS C:\Source\studyPython> cd .\venv\Scripts\
+PS C:\Source\studyPython\venv\Scripts> .\activate.ps1
+```
+
 ## 5일차
 1. 파이썬 기본
     - 패키지 계속
@@ -82,8 +87,17 @@ print(f'파이는 {pi:10.3f}입니다.')  # 파이는          3.142입니다.
     - 주피터 노트북 사용법
         - 노트북 생성 : 파일메뉴 > 새파일
     - 리스트 연산 추가
-    - 자료구조 추가
     - 라이브러리 사용법
+        - folium (지도 라이브러리)
+
+# 8일차
+1. 파이썬 응용
+    - 라이브러리 사용법
+        - urllib.request
+    - 웹크롤링
+        - 기상청 오늘의 날씨 크롤링
+        - 데이터포털 OpenAPI 크롤링
+    - 자료구조 추가
     - 윈폼 개발(GUI)
     - 응용 학습
 
