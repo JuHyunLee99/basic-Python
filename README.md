@@ -58,16 +58,22 @@ print(f'파이는 {pi:10.3f}입니다.')  # 파이는          3.142입니다.
     : 글로버 버전과 다른 독립적인 가상의 환경
     - 객체지향 OOP(클래스)
     - 패키지, 모듈
+        - math 모듈
 
-```cmd
+가상환경 실행
+```shell
 PS C:\Source\studyPython> cd .\venv\Scripts\
 PS C:\Source\studyPython\venv\Scripts> .\activate.ps1
 ```
 
 ## 5일차
 1. 파이썬 기본
-    - 패키지 계속
+    - 패키지, 모듈 계속
+        - ramdom 모듈
+        - 파이썬 표준 라이브러리 urllib 패키지 내의 request 모듈
+        - 외부 라이브러리 requests 패키지
     - 입출력 다시
+        - 공공데이터포터 csv파일 읽기 (csv 라이브러리)
     - 예외처리
 
 ## 6일차
@@ -89,6 +95,7 @@ PS C:\Source\studyPython\venv\Scripts> .\activate.ps1
     - 리스트 연산 추가
     - 라이브러리 사용법
         - folium (지도 라이브러리)
+        - json 라이브러리
 
 # 8일차
 1. 파이썬 응용
