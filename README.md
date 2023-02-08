@@ -104,7 +104,8 @@ PS C:\Source\studyPython\venv\Scripts> .\activate.ps1
     - 웹크롤링
         - 기상청 오늘의 날씨 크롤링
         - 데이터포털 OpenAPI 크롤링
-    - 자료구조 추가
-    - 윈폼 개발(GUI)
-    - 응용 학습
+        - BeautiifulSoup 크롤링
 
+![실행화면](https://github.com/JuHyunLee99/studyPython/blob/main/images/jupyter_folium.png)
+
+실행화면
