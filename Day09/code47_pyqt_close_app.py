@@ -13,6 +13,7 @@ class MyApp(QWidget):
         self.initUI()
 
     def initUI(self):
+        # 버튼
         # QPushButton(버튼에 표시될 텍스트, 버튼이 위치할 부모 위젯): 푸시버튼 만듬
         btn = QPushButton('Quit', self) # btn : QPushButton 클래스의 instance
         btn.move(320, 170)
