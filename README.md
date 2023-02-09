@@ -109,3 +109,11 @@ PS C:\Source\studyPython\venv\Scripts> .\activate.ps1
 ![실행화면](https://github.com/JuHyunLee99/studyPython/blob/main/images/jupyter_folium.png)
 
 실행화면
+
+# 9일차
+1. 파이썬 응용
+    - GUI 개발
+        - Tkinter 소개
+        - PyQt 소개, 설치
+    - 자료구조 추가
+
