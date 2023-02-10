@@ -97,7 +97,7 @@ PS C:\Source\studyPython\venv\Scripts> .\activate.ps1
         - folium (지도 라이브러리)
         - json 라이브러리
 
-# 8일차
+## 8일차
 1. 파이썬 응용
     - 라이브러리 사용법
         - urllib.request
@@ -110,13 +110,13 @@ PS C:\Source\studyPython\venv\Scripts> .\activate.ps1
 
 실행화면
 
-# 9일차
+## 9일차
 1. 파이썬 응용
     - GUI 개발
         - Tkinter 소개
         - PyQt 소개, 설치
 
-# 10일차
+## 10일차
 1. 파이썬 응용
     - GUI 개발
         - 위젯 계속
