@@ -46,6 +46,11 @@ print(spiderman)
 print(spiderman['weapon'])
 print(type(spiderman))
 
+# 딕셔너리, 리스트
+food = {'고기': ['치킨','소고기', '돼지고기', '양고기'],
+        '쌀': ['백미', '현미', '귀리', '잡곡']}
+print(food['고기'])
+
 #집합
 set1 = set([1,2,3,4])
 print(set1)
