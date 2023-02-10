@@ -46,7 +46,7 @@ class MyApp(QMainWindow):
         
         QMessageBox.about(self,'성공','로드했습니다')
 
-    def closeEvent(self, event) -> None:    # # 프로그램 종료
+    def closeEvent(self, event) -> None:    # # 프로그램 종료 // 함수 재정의
         reply = QMessageBox.question(self, '종류', '정말 종료하시겠습니까?',
                                      QMessageBox.Yes | QMessageBox.No, QMessageBox.No)
         # QMessageBox.question(slef, 제목, 내용, 버튼종류(yes, no), 기본선택 no)
