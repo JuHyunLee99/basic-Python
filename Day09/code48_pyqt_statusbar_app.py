@@ -13,21 +13,21 @@ class MyApp(QMainWindow):
         self.initUI()
 
     def initUI(self):
-        # 메뉴바-액션
+        # 액션 - 종료
         actExit = QAction(QIcon('./Day09/exit.png'), 'Exit', self)  # 액션(아이콘, 라벨, 부모, 위치할 부모 위젯)
         actExit.setShortcut('Ctrl+Q')   # 단축키 지정
         actExit.setStatusTip('앱 종료') # 마우스 올렸을 때 상태팁
+        actExit.triggered.connect(qApp.quit)    # 이 동작을 선택했을 때, 생성된 (triggered)시그널이 
+        # QApplication 위젯의 quit() 메서드에 연결되고, 어플리케이션을 종료시킴.
 
-        # 이 동작을 선택했을 때, 생성된 (triggered)시그널이 
-        # QApplication 위젯의 quit() 메서드에 연결되고, 어플리케이션을 종료시킴
-        actExit.triggered.connect(qApp.quit)
-
+        # 액션 - 저장
         actSave = QAction(QIcon('./Day09/save.png'), 'Save', self)
         actSave.setShortcut('Ctrl+S')
         actSave.setStatusTip('저장')
 
+        # 메뉴바
         menubar = self.menuBar()    # 메뉴바 생성
-        menubar.setNativeMenuBar(False)
+        menubar.setNativeMenuBar(False) # mac native menu bar를 사용X
         filemenu = menubar.addMenu('&File') # 'File 메뉴 만들기     # '&'는 단축기 설정해줌. F 앞에 있으므로 Alt+F
         filemenu.addAction(actExit)     # 'File 메뉴에 actExit 동작 추가
 

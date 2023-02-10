@@ -115,5 +115,14 @@ PS C:\Source\studyPython\venv\Scripts> .\activate.ps1
     - GUI 개발
         - Tkinter 소개
         - PyQt 소개, 설치
-    - 자료구조 추가
+
+# 10일차
+1. 파이썬 응용
+    - GUI 개발
+        - 위젯 계속
+        - PyQT 다이얼로그
+
+![실행화면](https://github.com/JuHyunLee99/studyPython/blob/main/images/dialog.png)
+
+PyQt 실행화면
 
