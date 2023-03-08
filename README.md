@@ -84,8 +84,10 @@ PS C:\Source\studyPython\venv\Scripts> .\activate.ps1
         - 상속, 다중 상속
 2. 파이썬 응용
     - 주소록 프로그램 [소스](https://github.com/JuHyunLee99/studyPython/blob/main/Project/address_app.py)
-
+<!-- HTML 주석
 ![실행화면](https://raw.githubusercontent.com/JuHyunLee99/studyPython/main/images/address_app.png)
+-->
+<img src="https://raw.githubusercontent.com/JuHyunLee99/studyPython/main/images/address_app.png" width="780" />
 실행화면
 
 ## 7일차
