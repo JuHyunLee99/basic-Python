@@ -14,7 +14,7 @@
 # desc : 콘솔출력 - 주석
 print('Hello, Python!!') # 콘솔출력 함수
 ```
-<img src="https://raw.githubusercontent.com/JuHyunLee99/studyPython/main/images/.png" width="780" />
+<img src="https://raw.githubusercontent.com/JuHyunLee99/basic-Python/main/images/console_print.PNG" width="780" />
 실행화면
 
 ## 2일차
