@@ -48,6 +48,8 @@ print(f'파이는 {pi:10.3f}입니다.')  # 파이는          3.142입니다.
     - 함수
 
 ```python
+# 매개변수 개수가 일정치 않은 경우
+# 가변인자 *args
 def adds(*args):
     result = 0
     for i in args:
