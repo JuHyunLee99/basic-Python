@@ -98,8 +98,15 @@ PS C:\Source\studyPython\venv\Scripts> .\activate.ps1
 # 언더스코어를 두개(__)붙인 변수: 선언된 클래스 안에서만 해당 이름으로 사용 가능하다.
 class Car:
     __number = '54라 9538'  # __number 외부에서 수정하지 못하도록 __ 사용
+# 클래스 외부에서 변경X, 멤버변수로는 내부 조작O
+    def set_number(self, number):
+        self.__number = number
 
-
+yourcar.__number = '55오 555'   # 외부에서는 멤버변수에 접근불가
+print(yourcar)
+print('클래스 내부함수 사용!')
+yourcar.set_number('55오 5555')
+print(yourcar)
 ```
 ## 5일차
 1. 파이썬 기본
