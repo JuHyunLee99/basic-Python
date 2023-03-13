@@ -95,9 +95,9 @@ PS C:\Source\studyPython\venv\Scripts> .\activate.ps1
 ```
 
 ```python
-# 언더스코어를 두개(__)붙인 변수: 선언된 클래스 안에서만 해당 이름으로 사용 가능하다.
+# 변수 왼쪽에 __언더스코어: 선언된 클래스 안에서만 해당 이름으로 사용 가능.
 class Car:
-    __number = '54라 9538'  # __number 외부에서 수정하지 못하도록 __ 사용
+    __number = '54라 9538'  # __number 외부에서 수정하지 못하도록 __ 사용.
 # 클래스 외부에서 변경X, 멤버변수로는 내부 조작O
     def set_number(self, number):
         self.__number = number
