@@ -94,6 +94,13 @@ PS C:\Source\studyPython> cd .\venv\Scripts\
 PS C:\Source\studyPython\venv\Scripts> .\activate.ps1
 ```
 
+```python
+# 언더스코어를 두개(__)붙인 변수: 선언된 클래스 안에서만 해당 이름으로 사용 가능하다.
+class Car:
+    __number = '54라 9538'  # __number 외부에서 수정하지 못하도록 __ 사용
+
+
+```
 ## 5일차
 1. 파이썬 기본
     - 패키지, 모듈 계속
