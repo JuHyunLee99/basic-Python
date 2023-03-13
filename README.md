@@ -47,6 +47,15 @@ print(f'파이는 {pi:10.3f}입니다.')  # 파이는          3.142입니다.
     - 구구단 프로그램
     - 함수
 
+```python
+def adds(*args):
+    result = 0
+    for i in args:
+        result += i
+    return result
+    
+print(adds(1, 2, 3, 4))
+```
 
 >**디버깅 F5**
 - 오류를 찾거나 소스코드 이해를 위해 사용

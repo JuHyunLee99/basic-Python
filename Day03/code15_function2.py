@@ -36,7 +36,6 @@ def adds(*args):
     result = 0
     for i in args:
         result += i
-
     return result
 
 # 함수호출
