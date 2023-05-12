@@ -1,5 +1,5 @@
 # studyPython
-부경대 IoT 파이썬 학습 리포지토리
+study 파이썬 리포지토리
 
 
 ## 1일차
